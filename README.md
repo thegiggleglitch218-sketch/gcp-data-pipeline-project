@@ -1,20 +1,15 @@
-# GCP Data Pipeline Project
+# GCP Data Pipeline
 
-## Description
-This project demonstrates a simple data pipeline using Python, Google Cloud Storage, and BigQuery.
+## Overview
+This project demonstrates a simple data pipeline using Python and Google Cloud.
 
-## Tools Used
+## Flow
+Raw CSV → Python Cleaning → GCS → BigQuery → SQL Analysis
+
+## Tools
 - Python (Pandas)
-- Google Cloud Storage (GCS)
+- GCS
 - BigQuery
 
-## Steps
-1. Raw CSV data is cleaned using Python
-2. Data is uploaded to GCS
-3. Data is loaded into BigQuery
-4. SQL queries are used for transformation and analysis
-
 ## Output
-- Cleaned dataset
-- BigQuery table
-- SQL query results
+Cleaned dataset and aggregated results
