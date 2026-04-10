@@ -115,4 +115,4 @@ print(df.info())
 # Save final dataset
 df.to_csv('customers_curated.csv', index=False)
 
-print("\n✅ Curated dataset saved as 'customers_curated.csv'")
+print("\n Curated dataset saved as 'customers_curated.csv'")
